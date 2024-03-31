@@ -10860,3 +10860,45 @@ section {
   padding-top: 9rem;
   padding-bottom: 9rem;
 }
+
+
+
+
+/* SIGNUP STYLING */
+
+.col{
+  margin-top: 20px;
+  width: 20%;
+  text-align: center;
+}
+.signup-col{
+  padding: 15px;
+}
+
+input::placeholder{
+  color: #fff !important;
+}
+
+input{
+  background: var(--bs-gradient);
+  color: #fff !important;
+}
+
+input:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.signup-form{
+  margin-top: 200px;
+}
+
+.page-wrap{
+  display: flex;
+  flex-direction: column;
+  min-height: 32vh;
+}
+
+.signup-content{
+  flex: 1 0 auto;
+}
